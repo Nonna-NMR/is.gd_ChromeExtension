@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Selectable URL Shortener (is.gd)",
+    "version": "2.0",
+    "description": "現在のページまたは任意のURLを短縮してコピーします。",
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://is.gd/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "URL短縮メニュー"
+    }
+}
